@@ -68,6 +68,6 @@ checker.isMoney = function (content) {
  * @param {string} content
  */
 checker.isPhone = function (content) {
-  return /^1[3|4|5|7|8][0-9]\d{8}$/.test(content)
+  return /^1[3|4|5|7|8|9][0-9]\d{8}$/.test(content)
 }
 
